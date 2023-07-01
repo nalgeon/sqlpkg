@@ -1,0 +1,27 @@
+{
+    "owner": "nalgeon",
+    "name": "regexp",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/regexp.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "Search and replace with regular expressins.",
+    "keywords": ["sqlean-regexp"],
+    "symbols": [
+        "regexp_capture",
+        "regexp_like",
+        "regexp_replace",
+        "regexp_substr",
+        "regexp"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "regexp*"
+    }
+}

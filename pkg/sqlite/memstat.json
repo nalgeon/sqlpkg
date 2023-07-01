@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "memstat",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007421989",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Lists performance characteristics of the current SQLite instance.",
+    "symbols": ["sqlite_memstat"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "memstat.dylib",
+            "linux-amd64": "memstat.so",
+            "windows-amd64": "memstat.dll"
+        }
+    }
+}

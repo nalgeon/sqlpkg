@@ -1,0 +1,18 @@
+{
+    "owner": "nalgeon",
+    "name": "rotate",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007500659",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Richard Hipp", "CompuRoot"],
+    "license": "BSD 0-Clause License",
+    "description": "String obfuscation algorithms ROT13 and ROT47.",
+    "symbols": ["rot13", "rot47"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "rotate.dylib",
+            "linux-amd64": "rotate.so",
+            "windows-amd64": "rotate.dll"
+        }
+    }
+}

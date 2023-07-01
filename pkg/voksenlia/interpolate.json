@@ -1,0 +1,18 @@
+{
+    "owner": "voksenlia",
+    "name": "interpolate",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007971527",
+    "repository": "http://voksenlia.net/sqlite3/interpolate.c",
+    "authors": ["Steinar Midtskogen"],
+    "license": "Public Domain",
+    "description": "Interpolates missing values for timestamped measurements.",
+    "symbols": ["interpolate"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "interpolate.dylib",
+            "linux-amd64": "interpolate.so",
+            "windows-amd64": "interpolate.dll"
+        }
+    }
+}

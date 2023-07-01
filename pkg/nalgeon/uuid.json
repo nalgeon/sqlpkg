@@ -1,0 +1,21 @@
+{
+    "owner": "nalgeon",
+    "name": "uuid",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/uuid.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Richard Hipp", "Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "Generating universally unique identifiers (UUIDs).",
+    "keywords": ["sqlean-uuid"],
+    "symbols": ["uuid_str", "uuid4"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "uuid*"
+    }
+}

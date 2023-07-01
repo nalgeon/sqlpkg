@@ -1,0 +1,35 @@
+{
+    "owner": "nalgeon",
+    "name": "fileio",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/fileio.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Richard Hipp", "Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "Read and write files.",
+    "keywords": ["sqlean-fileio"],
+    "symbols": [
+        "fileio_append",
+        "fileio_ls",
+        "fileio_mkdir",
+        "fileio_read",
+        "fileio_scan",
+        "fileio_symlink",
+        "fileio_write",
+        "lsdir",
+        "lsmode",
+        "mkdir",
+        "readfile",
+        "symlink",
+        "writefile"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "fileio*"
+    }
+}

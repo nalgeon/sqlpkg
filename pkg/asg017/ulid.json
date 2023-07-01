@@ -1,0 +1,26 @@
+{
+    "owner": "asg017",
+    "name": "ulid",
+    "version": "v0.2.0",
+    "repository": "https://github.com/asg017/sqlite-ulid",
+    "authors": ["Alex Garcia"],
+    "license": "Apache-2.0 AND MIT",
+    "description": "Generating and working with ULIDs.",
+    "keywords": ["sqlite-ulid"],
+    "symbols": [
+        "ulid_bytes",
+        "ulid_datetime",
+        "ulid_debug",
+        "ulid_version",
+        "ulid_with_prefix",
+        "ulid"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-ulid-{version}-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-ulid-{version}-macos-arm64.tar.gz",
+            "linux-amd64": "sqlite-ulid-{version}-ubuntu-x86_64.tar.gz",
+            "windows-amd64": "sqlite-ulid-{version}-windows-x86_64.tar.gz"
+        }
+    }
+}

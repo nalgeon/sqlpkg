@@ -1,0 +1,33 @@
+{
+    "owner": "asg017",
+    "name": "html",
+    "version": "v0.1.1",
+    "repository": "https://github.com/asg017/sqlite-html",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Querying, manipulating, and creating HTML elements.",
+    "keywords": ["sqlite-html"],
+    "symbols": [
+        "html_attribute_get",
+        "html_attribute_has",
+        "html_count",
+        "html_debug",
+        "html_each",
+        "html_element",
+        "html_escape",
+        "html_extract",
+        "html_table",
+        "html_text",
+        "html_trim",
+        "html_unescape",
+        "html_version",
+        "html"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "html0.dylib",
+            "linux-amd64": "html0.so",
+            "windows-amd64": "html0.dll"
+        }
+    }
+}

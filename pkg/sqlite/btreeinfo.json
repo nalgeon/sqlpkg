@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "btreeinfo",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1004896027",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Shows information about all btrees (tables and indexes) in a database file.",
+    "symbols": ["sqlite_btreeinfo"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "btreeinfo.dylib",
+            "linux-amd64": "btreeinfo.so",
+            "windows-amd64": "btreeinfo.dll"
+        }
+    }
+}

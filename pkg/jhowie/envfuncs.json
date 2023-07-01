@@ -1,0 +1,18 @@
+{
+    "owner": "jhowie",
+    "name": "envfuncs",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997423609",
+    "repository": "https://github.com/jhowie/sqlite3-ext",
+    "authors": ["John Howie"],
+    "license": "BSD-3-Clause license",
+    "description": "Returns the value of the environment variable.",
+    "symbols": ["getenv"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "envfuncs.dylib",
+            "linux-amd64": "envfuncs.so",
+            "windows-amd64": "envfuncs.dll"
+        }
+    }
+}

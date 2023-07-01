@@ -1,0 +1,18 @@
+{
+    "owner": "mrwilson",
+    "name": "pearson",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997417836",
+    "repository": "https://github.com/mrwilson/squib",
+    "authors": ["Alex Wilson"],
+    "license": "MIT",
+    "description": "Returns Pearson correlation coefficient between two data sets.",
+    "symbols": ["pearson"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "pearson.dylib",
+            "linux-amd64": "pearson.so",
+            "windows-amd64": "pearson.dll"
+        }
+    }
+}

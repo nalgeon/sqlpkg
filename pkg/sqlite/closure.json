@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "closure",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1004931771",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Navigate hierarchic tables with parent/child relationships.",
+    "symbols": ["transitive_closure"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "closure.dylib",
+            "linux-amd64": "closure.so",
+            "windows-amd64": "closure.dll"
+        }
+    }
+}

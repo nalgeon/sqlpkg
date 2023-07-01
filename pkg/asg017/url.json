@@ -1,0 +1,36 @@
+{
+    "owner": "asg017",
+    "name": "url",
+    "version": "v0.0.1",
+    "repository": "https://github.com/asg017/sqlite-url",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Parsing, generating, and querying URLs and query strings.",
+    "keywords": ["sqlite-lines"],
+    "symbols": [
+        "url_debug",
+        "url_escape",
+        "url_fragment",
+        "url_host",
+        "url_options",
+        "url_password",
+        "url_path",
+        "url_port",
+        "url_query_each",
+        "url_query",
+        "url_querystring",
+        "url_scheme",
+        "url_unescape",
+        "url_user",
+        "url_valid",
+        "url_version",
+        "url_zoneid",
+        "url"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "url0.dylib",
+            "linux-amd64": "url0.so"
+        }
+    }
+}

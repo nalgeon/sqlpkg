@@ -1,0 +1,27 @@
+{
+    "owner": "asg017",
+    "name": "xsv",
+    "version": "v0.2.0",
+    "repository": "https://github.com/asg017/sqlite-xsv",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Query CSVs, TSVs, and other-SVs as virtual tables.",
+    "keywords": ["sqlite-xsv"],
+    "symbols": [
+        "csv_reader",
+        "csv",
+        "tsv_reader",
+        "tsv",
+        "xsv_debug",
+        "xsv_reader",
+        "xsv_version",
+        "xsv"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "xsv0.dylib",
+            "linux-amd64": "xsv0.so",
+            "windows-amd64": "xsv0.dll"
+        }
+    }
+}

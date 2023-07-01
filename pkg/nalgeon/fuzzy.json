@@ -1,0 +1,33 @@
+{
+    "owner": "nalgeon",
+    "name": "fuzzy",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/fuzzy.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Ross Bayer", "Richard Hipp", "Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "Fuzzy string matching, phonetics and transliteration.",
+    "keywords": ["sqlean-fuzzy"],
+    "symbols": [
+        "caverphone",
+        "dlevenshtein",
+        "edit_distance",
+        "hamming",
+        "jaro_winkler",
+        "levenshtein",
+        "osa_distance",
+        "phonetic_hash",
+        "rsoundex",
+        "soundex",
+        "translit"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "fuzzy*"
+    }
+}

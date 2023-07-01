@@ -1,0 +1,34 @@
+{
+    "owner": "asg017",
+    "name": "fastrand",
+    "version": "v0.2.0",
+    "repository": "https://github.com/asg017/sqlite-fastrand",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Quickly generating random numbers, booleans, characters, and blobs.",
+    "keywords": ["sqlite-fastrand"],
+    "symbols": [
+        "fastrand_alphabetic",
+        "fastrand_alphanumeric",
+        "fastrand_blob",
+        "fastrand_bool",
+        "fastrand_debug",
+        "fastrand_digit",
+        "fastrand_double",
+        "fastrand_int",
+        "fastrand_int64",
+        "fastrand_lowercase",
+        "fastrand_seed_get",
+        "fastrand_seed_set",
+        "fastrand_uppercase",
+        "fastrand_version"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-fastrand-{version}-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-fastrand-{version}-macos-arm64.tar.gz",
+            "linux-amd64": "sqlite-fastrand-{version}-ubuntu-x86_64.tar.gz",
+            "windows-amd64": "sqlite-fastrand-{version}-windows-x86_64.tar.gz"
+        }
+    }
+}

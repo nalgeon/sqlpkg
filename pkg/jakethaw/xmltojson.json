@@ -1,0 +1,17 @@
+{
+    "owner": "jakethaw",
+    "name": "xmltojson",
+    "repository": "https://github.com/jakethaw/xml_to_json",
+    "authors": ["jakethaw"],
+    "license": "MIT",
+    "description": "Converts an XML string to the corresponding JSON string.",
+    "symbols": ["xml_to_json"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "xmltojson.dylib",
+            "linux-amd64": "xmltojson.so",
+            "windows-amd64": "xmltojson.dll"
+        }
+    }
+}

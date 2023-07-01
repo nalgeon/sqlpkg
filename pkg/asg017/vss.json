@@ -1,0 +1,32 @@
+{
+    "owner": "asg017",
+    "name": "vss",
+    "version": "v0.1.0",
+    "repository": "https://github.com/asg017/sqlite-vss",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Efficient vector search, based on Faiss.",
+    "keywords": ["sqlite-vss"],
+    "symbols": [
+        "vss0",
+        "vss_search",
+        "vss_search_params",
+        "vss_range_search",
+        "vss_range_search_params",
+        "vss_distance_l1",
+        "vss_distance_l2",
+        "vss_distance_linf",
+        "vss_inner_product",
+        "vss_fvec_add",
+        "vss_fvec_sub",
+        "vss_version",
+        "vss_debug"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-vss-{version}-vss0-darwin-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-vss-{version}-vss0-darwin-aarch64.tar.gz",
+            "linux-amd64": "sqlite-vss-{version}-vss0-linux-x86_64.tar.gz"
+        }
+    }
+}

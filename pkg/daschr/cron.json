@@ -1,0 +1,18 @@
+{
+    "owner": "daschr",
+    "name": "cron",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997427979",
+    "repository": "https://github.com/daschr/sqlite3_extensions",
+    "authors": ["David Schramm"],
+    "license": "MIT",
+    "description": "Compares dates against cron patterns, whether they match or not.",
+    "symbols": ["cron_match"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "cron.dylib",
+            "linux-amd64": "cron.so",
+            "windows-amd64": "cron.dll"
+        }
+    }
+}

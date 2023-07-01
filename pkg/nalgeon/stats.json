@@ -1,0 +1,36 @@
+{
+    "owner": "nalgeon",
+    "name": "stats",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/stats.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Richard Hipp", "Liam Healy", "Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "Mathematical statistics.",
+    "keywords": ["sqlean-stats"],
+    "symbols": [
+        "generate_series",
+        "median",
+        "percentile_25",
+        "percentile_75",
+        "percentile_90",
+        "percentile_95",
+        "percentile_99",
+        "percentile",
+        "stddev_pop",
+        "stddev_samp",
+        "stddev",
+        "var_pop",
+        "var_samp",
+        "variance"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "stats*"
+    }
+}

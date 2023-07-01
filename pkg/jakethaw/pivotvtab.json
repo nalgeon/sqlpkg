@@ -1,0 +1,18 @@
+{
+    "owner": "jakethaw",
+    "name": "pivotvtab",
+    "repository": "https://github.com/jakethaw/pivot_vtab",
+    "authors": ["jakethaw"],
+    "license": "MIT",
+    "description": "Creates a pivot table from a regular one.",
+    "symbols": ["pivot_vtab"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "pivotvtab.dylib",
+            "darwin-arm64": "pivotvtab.dylib",
+            "linux-amd64": "pivotvtab.so",
+            "windows-amd64": "pivotvtab.dll"
+        }
+    }
+}

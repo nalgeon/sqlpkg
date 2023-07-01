@@ -1,0 +1,19 @@
+{
+    "owner": "asg017",
+    "name": "jsonschema",
+    "version": "v0.2.2",
+    "repository": "https://github.com/asg017/sqlite-jsonschema",
+    "authors": ["Alex Garcia"],
+    "license": "Apache-2.0 AND MIT",
+    "description": "Validating JSON objects with JSON Schema.",
+    "keywords": ["sqlite-jsonschema"],
+    "symbols": ["jsonschema_debug", "jsonschema_matches", "jsonschema_version"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-jsonschema-{version}-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-jsonschema-{version}-macos-arm64.tar.gz",
+            "linux-amd64": "sqlite-jsonschema-{version}-ubuntu-x86_64.tar.gz",
+            "windows-amd64": "sqlite-jsonschema-{version}-windows-x86_64.tar.gz"
+        }
+    }
+}

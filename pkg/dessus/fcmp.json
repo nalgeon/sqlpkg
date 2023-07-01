@@ -1,0 +1,36 @@
+{
+    "owner": "dessus",
+    "name": "fcmp",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997482625",
+    "repository": "http://www.dessus.com/files/sqlfcmp.c",
+    "authors": ["Keith Medcalf"],
+    "license": "Public Domain",
+    "description": "Floating point numbers comparison and rounding.",
+    "symbols": [
+        "feq",
+        "fge",
+        "fgt",
+        "fle",
+        "flt",
+        "fne",
+        "money",
+        "roundda",
+        "rounddd",
+        "rounddt",
+        "rounddu",
+        "roundha",
+        "roundhd",
+        "roundhe",
+        "roundho",
+        "roundht",
+        "roundhu"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "fcmp.dylib",
+            "linux-amd64": "fcmp.so",
+            "windows-amd64": "fcmp.dll"
+        }
+    }
+}

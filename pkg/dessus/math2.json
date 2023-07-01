@@ -1,0 +1,49 @@
+{
+    "owner": "dessus",
+    "name": "math2",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999128539",
+    "repository": "http://www.dessus.com/files/sqlmath.c",
+    "authors": ["Keith Medcalf"],
+    "license": "Public Domain",
+    "description": "Even more math functions and bit arithmetics.",
+    "symbols": [
+        "bitmask",
+        "bitmask",
+        "clrbits",
+        "exponent",
+        "fabs",
+        "frac",
+        "fromhex",
+        "isclr",
+        "ismaskclr",
+        "ismaskset",
+        "isset",
+        "ldexp",
+        "m_1_pi",
+        "m_2_pi",
+        "m_2_sqrtpi",
+        "m_deg2rad",
+        "m_e",
+        "m_ln2",
+        "m_ln10",
+        "m_log2e",
+        "m_log10e",
+        "m_pi_2",
+        "m_pi_4",
+        "m_pi",
+        "m_rad2deg",
+        "m_sqrt1_2",
+        "m_sqrt2",
+        "mantissa",
+        "setbits",
+        "trunc"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "math2.dylib",
+            "linux-amd64": "math2.so",
+            "windows-amd64": "math2.dll"
+        }
+    }
+}

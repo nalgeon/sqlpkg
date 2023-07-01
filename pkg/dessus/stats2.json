@@ -1,0 +1,38 @@
+{
+    "owner": "dessus",
+    "name": "stats2",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1000902666",
+    "repository": "http://www.dessus.com/files/sqlfunc.c",
+    "authors": ["Keith Medcalf"],
+    "license": "Public Domain",
+    "description": "Even more math statistics functions.",
+    "symbols": [
+        "aavg",
+        "avg",
+        "ci",
+        "covar",
+        "firstnotnull",
+        "gavg",
+        "kurt",
+        "kurtp",
+        "lastnotnull",
+        "median",
+        "range",
+        "rms",
+        "sem",
+        "skew",
+        "skewp",
+        "stdev",
+        "stdevp",
+        "var",
+        "varp"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "stats2.dylib",
+            "linux-amd64": "stats2.so",
+            "windows-amd64": "stats2.dll"
+        }
+    }
+}

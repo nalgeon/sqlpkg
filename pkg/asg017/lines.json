@@ -1,0 +1,17 @@
+{
+    "owner": "asg017",
+    "name": "lines",
+    "version": "v0.1.1",
+    "repository": "https://github.com/asg017/sqlite-lines",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Reading large files line-by-line (NDJSON, logs, txt, etc.)",
+    "keywords": ["sqlite-lines"],
+    "symbols": ["lines_debug", "lines_read", "lines_version", "lines"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "lines0-darwin-amd64.zip",
+            "linux-amd64": "lines0-linux-amd64.zip"
+        }
+    }
+}

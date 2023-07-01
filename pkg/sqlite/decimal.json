@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "decimal",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007348326",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Arbitrary-precision decimal arithmetic on numbers stored as text strings.",
+    "symbols": ["decimal_add", "decimal_mul", "decimal_sub"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "decimal.dylib",
+            "linux-amd64": "decimal.so",
+            "windows-amd64": "decimal.dll"
+        }
+    }
+}

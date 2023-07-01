@@ -1,0 +1,18 @@
+{
+    "owner": "shawnw",
+    "name": "bloom",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1002267134",
+    "repository": "https://github.com/shawnw/useful_sqlite_extensions",
+    "authors": ["Shawn Wagner"],
+    "license": "MIT",
+    "description": "Bloom filter — a fast index to tell if a value is probably in a table or certainly isn't.",
+    "symbols": ["bloom_filter"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "bloom.dylib",
+            "linux-amd64": "bloom.so",
+            "windows-amd64": "bloom.dll"
+        }
+    }
+}

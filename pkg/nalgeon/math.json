@@ -1,0 +1,48 @@
+{
+    "owner": "nalgeon",
+    "name": "math",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/math.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Richard Hipp"],
+    "license": "MIT",
+    "description": "Common math functions.",
+    "keywords": ["sqlean-math"],
+    "symbols": [
+        "acos",
+        "acosh",
+        "asin",
+        "asinh",
+        "atan",
+        "atan2",
+        "atanh",
+        "ceil",
+        "cos",
+        "cosh",
+        "degrees",
+        "floor",
+        "ln",
+        "log",
+        "log2",
+        "log10",
+        "mod",
+        "pi",
+        "pow",
+        "radians",
+        "sin",
+        "sinh",
+        "sqrt",
+        "tan",
+        "tanh",
+        "trunc"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "windows-amd64": "sqlean-win-x64.zip"
+        },
+        "pattern": "math*"
+    }
+}

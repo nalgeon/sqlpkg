@@ -1,0 +1,30 @@
+{
+    "owner": "shawnw",
+    "name": "stats3",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1002703581",
+    "repository": "https://github.com/shawnw/useful_sqlite_extensions",
+    "authors": ["Shawn Wagner"],
+    "license": "MIT",
+    "description": "Even more math statistics functions.",
+    "symbols": [
+        "corr",
+        "covar_pop",
+        "covar_samp",
+        "geo_mean",
+        "harm_mean",
+        "iqr",
+        "median",
+        "mode",
+        "product",
+        "q1",
+        "q3"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "stats3.dylib",
+            "linux-amd64": "stats3.so",
+            "windows-amd64": "stats3.dll"
+        }
+    }
+}

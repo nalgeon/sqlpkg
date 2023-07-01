@@ -1,0 +1,38 @@
+{
+    "owner": "sqlite",
+    "name": "json1",
+    "homepage": "https://sqlite.org/json1.html",
+    "repository": "https://sqlite.org/src/dir",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "JSON functions and operators.",
+    "symbols": [
+        "json_array_length",
+        "json_array",
+        "json_each",
+        "json_error_position",
+        "json_extract",
+        "json_group_array",
+        "json_group_object",
+        "json_insert",
+        "json_object",
+        "json_patch",
+        "json_quote",
+        "json_remove",
+        "json_replace",
+        "json_set",
+        "json_tree",
+        "json_type",
+        "json_valid",
+        "json"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "json1.dylib",
+            "darwin-arm64": "json1.dylib",
+            "linux-amd64": "json1.so",
+            "windows-amd64": "json1.dll"
+        }
+    }
+}

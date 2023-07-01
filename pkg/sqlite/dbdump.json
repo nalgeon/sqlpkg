@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "dbdump",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1006791300",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Export database or table structure and contents into a single UTF-8 string.",
+    "symbols": ["dbdump"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "dbdump.dylib",
+            "linux-amd64": "dbdump.so",
+            "windows-amd64": "dbdump.dll"
+        }
+    }
+}

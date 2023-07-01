@@ -1,0 +1,20 @@
+{
+    "owner": "nalgeon",
+    "name": "ipaddr",
+    "version": "0.21.5",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/ipaddr.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Vincent Bernat"],
+    "license": "MIT",
+    "description": "IP address manipulation.",
+    "keywords": ["sqlean-ipaddr"],
+    "symbols": ["ipcontains", "ipfamily", "iphost", "ipmasklen", "ipnetwork"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-arm64": "sqlean-macos-arm64.zip",
+            "linux-amd64": "sqlean-linux-x86.zip"
+        },
+        "pattern": "ipaddr*"
+    }
+}

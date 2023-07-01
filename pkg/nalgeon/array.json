@@ -1,0 +1,37 @@
+{
+    "owner": "nalgeon",
+    "name": "array",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1004109889",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": ["Anton Zhiyanov"],
+    "license": "MIT",
+    "description": "One-dimensional arrays (integers, real numbers and strings).",
+    "keywords": ["sqlean-array"],
+    "symbols": [
+        "array_agg",
+        "array_append",
+        "array_at",
+        "array_clear",
+        "array_concat",
+        "array_contains",
+        "array_index",
+        "array_insert",
+        "array_length",
+        "array_remove_at",
+        "array_remove",
+        "array_slice",
+        "array",
+        "intarray",
+        "realarray",
+        "textarray",
+        "unnest"
+    ],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "array.dylib",
+            "linux-amd64": "array.so",
+            "windows-amd64": "array.dll"
+        }
+    }
+}

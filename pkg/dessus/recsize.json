@@ -1,0 +1,18 @@
+{
+    "owner": "dessus",
+    "name": "recsize",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732907",
+    "repository": "http://www.dessus.com/files/sqlsize.c",
+    "authors": ["Keith Medcalf"],
+    "license": "Public Domain",
+    "description": "Еstimates total record size.",
+    "symbols": ["recsize"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "recsize.dylib",
+            "linux-amd64": "recsize.so",
+            "windows-amd64": "recsize.dll"
+        }
+    }
+}

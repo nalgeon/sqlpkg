@@ -1,0 +1,17 @@
+{
+    "owner": "sqlite",
+    "name": "zipfile",
+    "homepage": "https://sqlite.org/zipfile.html",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Read and write zip files, both in memory and on disk.",
+    "symbols": ["zipfile"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "zipfile.dylib",
+            "linux-amd64": "zipfile.so"
+        }
+    }
+}

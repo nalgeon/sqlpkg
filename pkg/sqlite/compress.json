@@ -1,0 +1,17 @@
+{
+    "owner": "sqlite",
+    "name": "compress",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1000937999",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Compress / uncompress data using zlib.",
+    "symbols": ["compress", "uncompress"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "compress.dylib",
+            "linux-amd64": "compress.so"
+        }
+    }
+}

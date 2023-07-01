@@ -1,0 +1,19 @@
+{
+    "owner": "asg017",
+    "name": "hello",
+    "version": "v0.1.0-alpha.50",
+    "repository": "https://github.com/asg017/sqlite-hello",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "The smallest possible \"hello, username\" extension.",
+    "keywords": ["sqlite-hello"],
+    "symbols": ["hello"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-hello-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-hello-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-hello-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-hello-{version}-loadable-windows-x86_64.tar.gz"
+        }
+    }
+}

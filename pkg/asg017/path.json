@@ -1,0 +1,32 @@
+{
+    "owner": "asg017",
+    "name": "path",
+    "version": "v0.1.0",
+    "repository": "https://github.com/asg017/sqlite-path",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Parsing, generating, and querying paths.",
+    "keywords": ["sqlite-path"],
+    "symbols": [
+        "path_absolute",
+        "path_basename",
+        "path_debug",
+        "path_dirname",
+        "path_extension",
+        "path_intersection",
+        "path_join",
+        "path_name",
+        "path_normalize",
+        "path_part_at",
+        "path_parts",
+        "path_root",
+        "path_version"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "path0.dylib",
+            "linux-amd64": "path0.so",
+            "windows-amd64": "path0.dll"
+        }
+    }
+}

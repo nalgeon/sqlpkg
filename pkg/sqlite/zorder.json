@@ -1,0 +1,18 @@
+{
+    "owner": "sqlite",
+    "name": "zorder",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007733209",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Maps multidimensional data to the single dimension using z-ordering (Morton codes).",
+    "symbols": ["unzorder", "zorder"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "zorder.dylib",
+            "linux-amd64": "zorder.so",
+            "windows-amd64": "zorder.dll"
+        }
+    }
+}

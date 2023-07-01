@@ -1,0 +1,18 @@
+{
+    "owner": "dessus",
+    "name": "besttype",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732640",
+    "repository": "http://www.dessus.com/files/sqlnumeric.c",
+    "authors": ["Keith Medcalf"],
+    "license": "Public Domain",
+    "description": "Infers the type of a value.",
+    "symbols": ["tobesttype"],
+    "assets": {
+        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+        "files": {
+            "darwin-amd64": "besttype.dylib",
+            "linux-amd64": "besttype.so",
+            "windows-amd64": "besttype.dll"
+        }
+    }
+}
