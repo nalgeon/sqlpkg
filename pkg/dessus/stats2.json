@@ -31,6 +31,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "stats2.dylib",
+            "darwin-arm64": "stats2.dylib",
             "linux-amd64": "stats2.so",
             "windows-amd64": "stats2.dll"
         }

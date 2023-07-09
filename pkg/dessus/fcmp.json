@@ -29,6 +29,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "fcmp.dylib",
+            "darwin-arm64": "fcmp.dylib",
             "linux-amd64": "fcmp.so",
             "windows-amd64": "fcmp.dll"
         }

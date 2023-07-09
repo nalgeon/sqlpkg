@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "classifier.dylib",
+            "darwin-arm64": "classifier.dylib",
             "linux-amd64": "classifier.so",
             "windows-amd64": "classifier.dll"
         }

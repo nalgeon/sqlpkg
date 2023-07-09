@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "isodate.dylib",
+            "darwin-arm64": "isodate.dylib",
             "linux-amd64": "isodate.so",
             "windows-amd64": "isodate.dll"
         }

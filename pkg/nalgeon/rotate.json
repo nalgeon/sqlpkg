@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "rotate.dylib",
+            "darwin-arm64": "rotate.dylib",
             "linux-amd64": "rotate.so",
             "windows-amd64": "rotate.dll"
         }

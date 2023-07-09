@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "envfuncs.dylib",
+            "darwin-arm64": "envfuncs.dylib",
             "linux-amd64": "envfuncs.so",
             "windows-amd64": "envfuncs.dll"
         }

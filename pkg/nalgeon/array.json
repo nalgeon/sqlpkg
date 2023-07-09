@@ -30,6 +30,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "array.dylib",
+            "darwin-arm64": "array.dylib",
             "linux-amd64": "array.so",
             "windows-amd64": "array.dll"
         }

@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "spellfix.dylib",
+            "darwin-arm64": "spellfix.dylib",
             "linux-amd64": "spellfix.so",
             "windows-amd64": "spellfix.dll"
         }

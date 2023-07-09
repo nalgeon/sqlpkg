@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "cron.dylib",
+            "darwin-arm64": "cron.dylib",
             "linux-amd64": "cron.so",
             "windows-amd64": "cron.dll"
         }

@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "closure.dylib",
+            "darwin-arm64": "closure.dylib",
             "linux-amd64": "closure.so",
             "windows-amd64": "closure.dll"
         }

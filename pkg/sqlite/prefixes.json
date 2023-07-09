@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "prefixes.dylib",
+            "darwin-arm64": "prefixes.dylib",
             "linux-amd64": "prefixes.so",
             "windows-amd64": "prefixes.dll"
         }

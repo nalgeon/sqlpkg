@@ -10,6 +10,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "xmltojson.dylib",
+            "darwin-arm64": "xmltojson.dylib",
             "linux-amd64": "xmltojson.so",
             "windows-amd64": "xmltojson.dll"
         }

@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "uint.dylib",
+            "darwin-arm64": "uint.dylib",
             "linux-amd64": "uint.so",
             "windows-amd64": "uint.dll"
         }

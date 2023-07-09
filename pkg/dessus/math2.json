@@ -42,6 +42,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "math2.dylib",
+            "darwin-arm64": "math2.dylib",
             "linux-amd64": "math2.so",
             "windows-amd64": "math2.dll"
         }

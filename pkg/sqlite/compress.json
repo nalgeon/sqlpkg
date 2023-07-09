@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "compress.dylib",
+            "darwin-arm64": "compress.dylib",
             "linux-amd64": "compress.so"
         }
     }

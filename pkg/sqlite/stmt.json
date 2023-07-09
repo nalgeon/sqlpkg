@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "stmt.dylib",
+            "darwin-arm64": "stmt.dylib",
             "linux-amd64": "stmt.so",
             "windows-amd64": "stmt.dll"
         }

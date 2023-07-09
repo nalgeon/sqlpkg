@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "btreeinfo.dylib",
+            "darwin-arm64": "btreeinfo.dylib",
             "linux-amd64": "btreeinfo.so",
             "windows-amd64": "btreeinfo.dll"
         }

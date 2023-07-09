@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "dbdump.dylib",
+            "darwin-arm64": "dbdump.dylib",
             "linux-amd64": "dbdump.so",
             "windows-amd64": "dbdump.dll"
         }

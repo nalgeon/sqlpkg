@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "interpolate.dylib",
+            "darwin-arm64": "interpolate.dylib",
             "linux-amd64": "interpolate.so",
             "windows-amd64": "interpolate.dll"
         }

@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "pearson.dylib",
+            "darwin-arm64": "pearson.dylib",
             "linux-amd64": "pearson.so",
             "windows-amd64": "pearson.dll"
         }

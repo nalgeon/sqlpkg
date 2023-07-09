@@ -11,6 +11,7 @@
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
             "darwin-amd64": "memstat.dylib",
+            "darwin-arm64": "memstat.dylib",
             "linux-amd64": "memstat.so",
             "windows-amd64": "memstat.dll"
         }
