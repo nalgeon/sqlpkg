@@ -1,7 +1,7 @@
 {
     "owner": "nalgeon",
     "name": "ipaddr",
-    "version": "0.21.5",
+    "version": "0.21.6",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/ipaddr.md",
     "repository": "https://github.com/nalgeon/sqlean",
     "authors": ["Vincent Bernat"],
