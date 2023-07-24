@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "ulid",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "repository": "https://github.com/asg017/sqlite-ulid",
     "authors": ["Alex Garcia"],
     "license": "Apache-2.0 AND MIT",

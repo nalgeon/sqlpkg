@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "path",
-    "version": "v0.1.0",
+    "version": "v0.2.0",
     "repository": "https://github.com/asg017/sqlite-path",
     "authors": ["Alex Garcia"],
     "license": "MIT",

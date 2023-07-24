@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "regex",
-    "version": "v0.2.2",
+    "version": "v0.2.3",
     "repository": "https://github.com/asg017/sqlite-regex",
     "authors": ["Alex Garcia"],
     "license": "MIT",
