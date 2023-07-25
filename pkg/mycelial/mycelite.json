@@ -1,0 +1,20 @@
+{
+    "owner": "mycelial",
+    "name": "mycelite",
+    "version": "v0.3.1",
+    "repository": "https://github.com/mycelial/mycelite",
+    "authors": ["Dmitriy Mazurin"],
+    "license": "Apache-2.0",
+    "description": "Synchronize changes from one instance of SQLite to another.",
+    "keywords": ["libmycelite", "synchronization"],
+    "symbols": ["mycelite_config"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "x86_64-apple-darwin.tgz",
+            "darwin-arm64": "aarch64-apple-darwin.tgz",
+            "linux-amd64": "x86_64-unknown-linux-gnu.tgz",
+            "linux-arm64": "arm-unknown-linux-gnueabihf.tgz",
+            "windows-amd64": "x86_64-pc-windows-gnu.zip"
+        }
+    }
+}
