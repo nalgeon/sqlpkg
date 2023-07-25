@@ -1,0 +1,22 @@
+{
+    "owner": "x2bool",
+    "name": "xlite",
+    "version": "v0.2.0",
+    "repository": "https://github.com/x2bool/xlite",
+    "authors": ["Sergey Khabibullin"],
+    "license": "MIT",
+    "description": "Query Excel (.xlsx, .xls) and Open Document spreadsheets (.ods).",
+    "keywords": ["libxlite"],
+    "symbols": ["xlite"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "libxlite-macos-x64.zip",
+            "darwin-arm64": "libxlite-macos-aarch64.zip",
+            "linux-386": "libxlite-linux-x86.tar.gz",
+            "linux-amd64": "libxlite-linux-x64.tar.gz",
+            "linux-arm64": "libxlite-linux-aarch64.tar.gz",
+            "windows-386": "xlite-windows-x86.zip",
+            "windows-amd64": "xlite-windows-x64.zip"
+        }
+    }
+}
