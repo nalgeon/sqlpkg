@@ -1,0 +1,36 @@
+{
+    "owner": "mlin",
+    "name": "genomicsqlite",
+    "version": "v0.9.4",
+    "repository": "https://github.com/mlin/genomicsqlite",
+    "authors": ["Mike Lin"],
+    "license": "Apache-2.0",
+    "description": "Genome bioinformatics.",
+    "keywords": [
+        "bioinformatics",
+        "dna",
+        "genomics",
+        "libgenomicsqlite",
+        "nucleotides",
+        "sequencing"
+    ],
+    "symbols": [
+        "dna_revcomp",
+        "dna_twobit",
+        "genomic_range_index_levels",
+        "genomic_range_rowids",
+        "nucleotides_twobit",
+        "parse_genomic_range_begin",
+        "parse_genomic_range_end",
+        "parse_genomic_range_sequence",
+        "twobit_dna",
+        "twobit_length",
+        "twobit_rna"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "genomicsqlite-{version}.zip",
+            "linux-amd64": "genomicsqlite-{version}.zip"
+        }
+    }
+}
