@@ -28,10 +28,10 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "macos-x86_64-regex0.dylib",
-            "darwin-arm64": "macos-arm-regex0.dylib",
-            "linux-amd64": "linux-x86_64-regex0.so",
-            "windows-amd64": "windows-x86_64-regex0.dll"
+            "darwin-amd64": "sqlite-regex-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-regex-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-regex-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-regex-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

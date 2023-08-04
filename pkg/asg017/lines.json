@@ -10,8 +10,8 @@
     "symbols": ["lines_debug", "lines_read", "lines_version", "lines"],
     "assets": {
         "files": {
-            "darwin-amd64": "lines0-darwin-amd64.zip",
-            "linux-amd64": "lines0-linux-amd64.zip"
+            "darwin-amd64": "sqlite-lines-{version}-loadable-macos-x86_64.tar.gz",
+            "linux-amd64": "sqlite-lines-{version}-loadable-linux-x86_64.tar.gz"
         }
     }
 }

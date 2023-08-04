@@ -17,10 +17,10 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "sqlite-ulid-{version}-macos-x86_64.tar.gz",
-            "darwin-arm64": "sqlite-ulid-{version}-macos-arm64.tar.gz",
-            "linux-amd64": "sqlite-ulid-{version}-ubuntu-x86_64.tar.gz",
-            "windows-amd64": "sqlite-ulid-{version}-windows-x86_64.tar.gz"
+            "darwin-amd64": "sqlite-ulid-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-ulid-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-ulid-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-ulid-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

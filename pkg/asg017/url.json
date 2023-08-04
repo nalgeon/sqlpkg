@@ -29,8 +29,8 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "url0.dylib",
-            "linux-amd64": "url0.so"
+            "darwin-amd64": "sqlite-url-{version}-loadable-macos-x86_64.tar.gz",
+            "linux-amd64": "sqlite-url-{version}-loadable-linux-x86_64.tar.gz"
         }
     }
 }

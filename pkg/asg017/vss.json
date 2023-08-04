@@ -24,9 +24,9 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "sqlite-vss-{version}-vss0-darwin-x86_64.tar.gz",
-            "darwin-arm64": "sqlite-vss-{version}-vss0-darwin-aarch64.tar.gz",
-            "linux-amd64": "sqlite-vss-{version}-vss0-linux-x86_64.tar.gz"
+            "darwin-amd64": "sqlite-vss-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-vss-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-vss-{version}-loadable-linux-x86_64.tar.gz"
         }
     }
 }

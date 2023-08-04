@@ -24,9 +24,9 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "path0.dylib",
-            "linux-amd64": "path0.so",
-            "windows-amd64": "path0.dll"
+            "darwin-amd64": "sqlite-path-{version}-loadable-macos-x86_64.tar.gz",
+            "linux-amd64": "sqlite-path-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-path-{version}-loadable-windows-x86_64.zip"
         }
     }
 }
