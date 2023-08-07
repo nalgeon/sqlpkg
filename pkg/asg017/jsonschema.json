@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "jsonschema",
-    "version": "v0.2.2",
+    "version": "v0.2.3",
     "repository": "https://github.com/asg017/sqlite-jsonschema",
     "authors": ["Alex Garcia"],
     "license": "Apache-2.0 AND MIT",
@@ -10,10 +10,10 @@
     "symbols": ["jsonschema_debug", "jsonschema_matches", "jsonschema_version"],
     "assets": {
         "files": {
-            "darwin-amd64": "sqlite-jsonschema-{version}-macos-x86_64.tar.gz",
-            "darwin-arm64": "sqlite-jsonschema-{version}-macos-arm64.tar.gz",
-            "linux-amd64": "sqlite-jsonschema-{version}-ubuntu-x86_64.tar.gz",
-            "windows-amd64": "sqlite-jsonschema-{version}-windows-x86_64.tar.gz"
+            "darwin-amd64": "sqlite-jsonschema-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-jsonschema-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-jsonschema-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-jsonschema-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

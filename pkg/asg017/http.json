@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "http",
-    "version": "v0.0.1",
+    "version": "v0.1.1",
     "repository": "https://github.com/asg017/sqlite-http",
     "authors": ["Alex Garcia"],
     "license": "MIT",
@@ -30,9 +30,10 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "http0.dylib",
-            "linux-amd64": "http0.so",
-            "windows-amd64": "http0.dll"
+            "darwin-amd64": "sqlite-http-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-http-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-http-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-http-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

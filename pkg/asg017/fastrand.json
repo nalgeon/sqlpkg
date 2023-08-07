@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "fastrand",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "repository": "https://github.com/asg017/sqlite-fastrand",
     "authors": ["Alex Garcia"],
     "license": "MIT",
@@ -25,10 +25,10 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "sqlite-fastrand-{version}-macos-x86_64.tar.gz",
-            "darwin-arm64": "sqlite-fastrand-{version}-macos-arm64.tar.gz",
-            "linux-amd64": "sqlite-fastrand-{version}-ubuntu-x86_64.tar.gz",
-            "windows-amd64": "sqlite-fastrand-{version}-windows-x86_64.tar.gz"
+            "darwin-amd64": "sqlite-fastrand-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-fastrand-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-fastrand-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-fastrand-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

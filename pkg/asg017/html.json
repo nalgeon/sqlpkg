@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "html",
-    "version": "v0.1.1",
+    "version": "v0.1.3",
     "repository": "https://github.com/asg017/sqlite-html",
     "authors": ["Alex Garcia"],
     "license": "MIT",
@@ -25,9 +25,10 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "html0.dylib",
-            "linux-amd64": "html0.so",
-            "windows-amd64": "html0.dll"
+            "darwin-amd64": "sqlite-html-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-html-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-html-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-html-{version}-loadable-windows-x86_64.zip"
         }
     }
 }

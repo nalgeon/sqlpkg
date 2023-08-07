@@ -1,7 +1,7 @@
 {
     "owner": "asg017",
     "name": "path",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "repository": "https://github.com/asg017/sqlite-path",
     "authors": ["Alex Garcia"],
     "license": "MIT",
@@ -25,6 +25,7 @@
     "assets": {
         "files": {
             "darwin-amd64": "sqlite-path-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-path-{version}-loadable-macos-aarch64.tar.gz",
             "linux-amd64": "sqlite-path-{version}-loadable-linux-x86_64.tar.gz",
             "windows-amd64": "sqlite-path-{version}-loadable-windows-x86_64.zip"
         }
