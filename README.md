@@ -7,8 +7,8 @@ The registry contains only package metadata (specs). Package binaries and source
 Here is what you can do from here:
 
 -   Search the registry at [sqlpkg.org](https://sqlpkg.org/).
--   Install extensions using the [sqlpkg](https://github.com/nalgeon/sqlpkg-cli) package manager.
--   Add your own package to the registry.
+-   Install extensions using the [package manager](https://github.com/nalgeon/sqlpkg-cli).
+-   Add [your own package](spec.md) to the registry.
 
 Note that you don't have to add your package to the registry for `sqlpkg` to work with it — it will work just fine with your own repo (see the `sqlpkg` documentation for details). Adding your package to the registry is completely optional.
 
