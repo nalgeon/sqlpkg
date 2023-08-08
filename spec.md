@@ -32,4 +32,4 @@ To be continued. In the meantime, check out the existing package specs for refer
 -   [nalgeon/uuid](https://github.com/nalgeon/sqlpkg/blob/main/pkg/nalgeon/uuid.json)
 -   [sqlite/stmt](https://github.com/nalgeon/sqlpkg/blob/main/pkg/sqlite/stmt.json)
 
-If you have any questions — open an [issue](https://github.com/nalgeon/sqlpkg/issues/new) or ask on [Discord](https://discord.com/invite/6VeJBMDs3q).
+If you have any questions — open an [issue](https://github.com/nalgeon/sqlpkg/issues/new).
