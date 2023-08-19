@@ -5,7 +5,7 @@
     "repository": "https://sqlite.org/src/file/ext/misc/",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Natural string sorting and comparison.",
+    "description": "Lists all prepared statements associated with the database connection.",
     "symbols": ["sqlite_stmt"],
     "assets": {
         "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
