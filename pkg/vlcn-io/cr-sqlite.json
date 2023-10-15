@@ -1,7 +1,7 @@
 {
     "owner": "vlcn-io",
     "name": "cr-sqlite",
-    "version": "v0.14.0",
+    "version": "v0.15.1",
     "repository": "https://github.com/vlcn-io/cr-sqlite",
     "authors": ["Matt Wonlaw"],
     "license": "MIT",
