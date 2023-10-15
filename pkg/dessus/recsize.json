@@ -2,7 +2,7 @@
     "owner": "dessus",
     "name": "recsize",
     "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732907",
-    "repository": "http://www.dessus.com/files/sqlsize.c",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/recsize.c",
     "authors": ["Keith Medcalf"],
     "license": "Public Domain",
     "description": "Еstimates total record size.",

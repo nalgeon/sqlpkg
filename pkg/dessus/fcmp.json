@@ -2,7 +2,7 @@
     "owner": "dessus",
     "name": "fcmp",
     "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997482625",
-    "repository": "http://www.dessus.com/files/sqlfcmp.c",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/fcmp.c",
     "authors": ["Keith Medcalf"],
     "license": "Public Domain",
     "description": "Floating point numbers comparison and rounding.",

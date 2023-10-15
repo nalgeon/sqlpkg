@@ -2,7 +2,7 @@
     "owner": "dessus",
     "name": "besttype",
     "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732640",
-    "repository": "http://www.dessus.com/files/sqlnumeric.c",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/besttype.c",
     "authors": ["Keith Medcalf"],
     "license": "Public Domain",
     "description": "Infers the type of a value.",
