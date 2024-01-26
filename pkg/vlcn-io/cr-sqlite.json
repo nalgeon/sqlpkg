@@ -1,7 +1,7 @@
 {
     "owner": "vlcn-io",
     "name": "cr-sqlite",
-    "version": "v0.15.1",
+    "version": "v0.16.3",
     "repository": "https://github.com/vlcn-io/cr-sqlite",
     "authors": ["Matt Wonlaw"],
     "license": "MIT",
@@ -13,15 +13,16 @@
         "crsql_begin_alter",
         "crsql_changes",
         "crsql_finalize",
-        "crsql_siteid"
+        "crsql_sha",
+        "crsql_site_id"
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "crsqlite-darwin-x86_64.dylib",
-            "darwin-arm64": "crsqlite-darwin-aarch64.dylib",
-            "linux-amd64": "crsqlite-linux-x86_64.so",
-            "linux-arm64": "crsqlite-linux-aarch64.so",
-            "windows-amd64": "crsqlite-windows-x86_64.dll"
+            "darwin-amd64": "crsqlite-darwin-x86_64.zip",
+            "darwin-arm64": "crsqlite-darwin-aarch64.zip",
+            "linux-amd64": "crsqlite-linux-x86_64.zip",
+            "linux-arm64": "crsqlite-linux-aarch64.zip",
+            "windows-amd64": "crsqlite-windows-x86_64.zip"
         }
     }
 }
