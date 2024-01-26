@@ -1,0 +1,16 @@
+{
+    "owner": "little-brother",
+    "name": "inja",
+    "version": "1.0.0",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/inja/README.md",
+    "authors": ["little-brother"],
+    "license": "GPL-2.0",
+    "description": "Generate output using jinia-like templates.",
+    "symbols": ["inja"],
+    "assets": {
+        "files": {
+            "windows-amd64": "inja-x64.zip"
+        }
+    }
+}

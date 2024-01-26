@@ -1,0 +1,16 @@
+{
+    "owner": "little-brother",
+    "name": "exec",
+    "version": "1.0.0",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/exec/README.md",
+    "authors": ["little-brother"],
+    "license": "GPL-2.0",
+    "description": "Execute a shell command and return console output as a result.",
+    "symbols": ["exec"],
+    "assets": {
+        "files": {
+            "windows-amd64": "exec-x64.zip"
+        }
+    }
+}

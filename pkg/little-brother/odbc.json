@@ -1,0 +1,16 @@
+{
+    "owner": "little-brother",
+    "name": "odbc",
+    "version": "1.0.0",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/odbc/README.md",
+    "authors": ["little-brother"],
+    "license": "GPL-2.0",
+    "description": "Work with any database via ODBC interface.",
+    "symbols": ["odbc_dsn", "odbc_query", "odbc_read", "odbc_write"],
+    "assets": {
+        "files": {
+            "windows-amd64": "odbc-x64.zip"
+        }
+    }
+}

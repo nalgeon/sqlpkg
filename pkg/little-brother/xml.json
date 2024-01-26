@@ -1,0 +1,24 @@
+{
+    "owner": "little-brother",
+    "name": "xml",
+    "version": "1.0.0",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/xml/README.md",
+    "authors": ["little-brother"],
+    "license": "GPL-2.0",
+    "description": "Work with XML documents stored as text.",
+    "keywords": ["xpath"],
+    "symbols": [
+        "xml_append",
+        "xml_each",
+        "xml_extract",
+        "xml_remove",
+        "xml_update",
+        "xml_valid"
+    ],
+    "assets": {
+        "files": {
+            "windows-amd64": "xml-x64.zip"
+        }
+    }
+}
