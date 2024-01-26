@@ -1,19 +1,20 @@
 {
     "owner": "sqlite",
     "name": "stmt",
-    "homepage": "https://www.sqlite.org/stmt.html",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/stmt.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Lists all prepared statements associated with the database connection.",
+    "description": "List all prepared statements associated with the database connection.",
     "symbols": ["sqlite_stmt"],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "stmt.dylib",
-            "darwin-arm64": "stmt.dylib",
-            "linux-amd64": "stmt.so",
-            "windows-amd64": "stmt.dll"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "stmt*"
     }
 }

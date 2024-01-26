@@ -1,20 +1,19 @@
 {
     "owner": "sqlite",
-    "name": "uint",
+    "name": "fileio",
     "version": "3.45.0",
-    "homepage": "https://sqlite.org/src/file?name=ext/misc/uint.c&ci=trunk",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/fileio.c&ci=trunk",
     "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Natural string sorting and comparison.",
-    "symbols": ["uint"],
+    "description": "Read and write files from SQL.",
+    "symbols": ["fsdir", "readfile", "writefile"],
     "assets": {
         "files": {
             "darwin-amd64": "misc-macos.zip",
             "darwin-arm64": "misc-macos.zip",
-            "linux-amd64": "misc-linux-x86.zip",
-            "windows-amd64": "misc-win-x64.zip"
+            "linux-amd64": "misc-linux-x86.zip"
         },
-        "pattern": "uint*"
+        "pattern": "fileio*"
     }
 }

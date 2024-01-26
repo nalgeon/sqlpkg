@@ -1,13 +1,14 @@
 {
     "owner": "sqlite",
-    "name": "decimal",
+    "name": "sha3",
     "version": "3.45.0",
-    "homepage": "https://sqlite.org/src/file?name=ext/misc/decimal.c&ci=trunk",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/shathree.c&ci=trunk",
     "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Arbitrary-precision decimal arithmetic on numbers stored as text strings.",
-    "symbols": ["decimal_add", "decimal_mul", "decimal_sub"],
+    "description": "Compute SHA3 hash for a string or blob.",
+    "keywords": ["shathree"],
+    "symbols": ["sha3", "sha3_query"],
     "assets": {
         "files": {
             "darwin-amd64": "misc-macos.zip",
@@ -15,6 +16,6 @@
             "linux-amd64": "misc-linux-x86.zip",
             "windows-amd64": "misc-win-x64.zip"
         },
-        "pattern": "decimal*"
+        "pattern": "shathree*"
     }
 }

@@ -1,18 +1,20 @@
 {
     "owner": "sqlite",
     "name": "sqlar",
-    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1000938046",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/sqlar.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
     "description": "Compress / uncompress data with zlib using the SQL Archive approach.",
     "symbols": ["sqlar_compress", "sqlar_uncompress"],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "sqlar.dylib",
-            "darwin-arm64": "sqlar.dylib",
-            "linux-amd64": "sqlar.so"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "sqlar*"
     }
 }

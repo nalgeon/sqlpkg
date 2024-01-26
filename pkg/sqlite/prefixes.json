@@ -1,19 +1,20 @@
 {
     "owner": "sqlite",
     "name": "prefixes",
-    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007464840",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/prefixes.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Generates all prefixes of the input string, including an empty string and the input string itself.",
+    "description": "Generate all prefixes of the input string.",
     "symbols": ["prefixes"],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "prefixes.dylib",
-            "darwin-arm64": "prefixes.dylib",
-            "linux-amd64": "prefixes.so",
-            "windows-amd64": "prefixes.dll"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "prefixes*"
     }
 }

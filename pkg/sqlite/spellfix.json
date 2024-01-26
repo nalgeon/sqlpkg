@@ -1,19 +1,20 @@
 {
     "owner": "sqlite",
     "name": "spellfix",
-    "homepage": "https://sqlite.org/spellfix1.html",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/spellfix.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Provides a mechanism to search a large vocabulary for close matches.",
+    "description": "Search a large vocabulary for close matches.",
     "symbols": ["spellfix1"],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "spellfix.dylib",
-            "darwin-arm64": "spellfix.dylib",
-            "linux-amd64": "spellfix.so",
-            "windows-amd64": "spellfix.dll"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "spellfix*"
     }
 }

@@ -1,11 +1,12 @@
 {
     "owner": "sqlite",
     "name": "ieee754",
-    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007375162",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/ieee754.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Converts a floating-point number F between its binary64 representation and the M×2^E format.",
+    "description": "Convert a floating-point number F between its binary64 representation and the M×2^E format.",
     "symbols": [
         "ieee754_exponent",
         "ieee754_from_blob",
@@ -14,12 +15,12 @@
         "ieee754"
     ],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "ieee754.dylib",
-            "darwin-arm64": "ieee754.dylib",
-            "linux-amd64": "ieee754.so",
-            "windows-amd64": "ieee754.dll"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "ieee754*"
     }
 }

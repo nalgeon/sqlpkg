@@ -1,6 +1,7 @@
 {
     "owner": "sqlite",
     "name": "dbdump",
+    "version": "3.36.0",
     "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1006791300",
     "repository": "https://sqlite.org/src/file/ext/misc/",
     "authors": ["Richard Hipp"],

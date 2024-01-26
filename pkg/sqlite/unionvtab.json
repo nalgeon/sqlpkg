@@ -1,19 +1,20 @@
 {
     "owner": "sqlite",
     "name": "unionvtab",
-    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007687162",
-    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "version": "3.45.0",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/unionvtab.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Unions multiple similar tables into one.",
+    "description": "Union multiple similar tables into one.",
     "symbols": ["swarmvtab", "unionvtab"],
     "assets": {
-        "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
         "files": {
-            "darwin-amd64": "unionvtab.dylib",
-            "darwin-arm64": "unionvtab.dylib",
-            "linux-amd64": "unionvtab.so",
-            "windows-amd64": "unionvtab.dll"
-        }
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "unionvtab*"
     }
 }
