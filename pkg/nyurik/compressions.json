@@ -1,0 +1,32 @@
+{
+    "owner": "nyurik",
+    "name": "compressions",
+    "version": "v0.2.1",
+    "repository": "https://github.com/nyurik/sqlite-compressions",
+    "authors": ["Yuri Astrakhan"],
+    "license": "MIT",
+    "description": "Compression, decompression, and testing for Brotli and gzip encodings.",
+    "keywords": [
+        "sqlite-compressions",
+        "libsqlite_compressions",
+        "brotli",
+        "gzip"
+    ],
+    "symbols": [
+        "gzip",
+        "gzip_decode",
+        "gzip_test",
+        "brotli",
+        "brotli_decode",
+        "brotli_test"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-compressions-x86_64-apple-darwin.tar.gz",
+            "darwin-arm64": "sqlite-compressions-aarch64-apple-darwin.tar.gz",
+            "linux-amd64": "sqlite-compressions-x86_64-unknown-linux-gnu.tar.gz",
+            "linux-arm64": "sqlite-compressions-aarch64-unknown-linux-gnu.tar.gz",
+            "windows-amd64": "sqlite-compressions-x86_64-pc-windows-msvc.zip"
+        }
+    }
+}
