@@ -6,7 +6,7 @@
     "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/inja/README.md",
     "authors": ["little-brother"],
     "license": "GPL-2.0",
-    "description": "Generate output using jinia-like templates.",
+    "description": "Generate output using Jinja-like templates.",
     "symbols": ["inja"],
     "assets": {
         "files": {
