@@ -5,10 +5,11 @@
     "repository": "https://github.com/nyurik/sqlite-hashes",
     "authors": ["Yuri Astrakhan"],
     "license": "MIT",
-    "description": "Hashing functions like MD5, SHA1, SHA256, SHA512, etc.",
+    "description": "Hashing functions with composite and aggregate support MD5, SHA1, SHA224, SHA256, SHA384, SHA512, FNV-1a, xxHash, ...",
     "keywords": [
         "sqlite-hashes",
         "libsqlite_hashes",
+        "aggregate",
         "fnv-1a",
         "md5",
         "sha1",
