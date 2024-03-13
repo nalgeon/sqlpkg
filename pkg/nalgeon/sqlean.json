@@ -1,21 +1,20 @@
 {
     "owner": "nalgeon",
-    "name": "define",
+    "name": "sqlean",
     "version": "0.22.0",
-    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/define.md",
+    "homepage": "https://github.com/nalgeon/sqlean",
     "repository": "https://github.com/nalgeon/sqlean",
-    "authors": ["0x09", "Richard Hipp", "Anton Zhiyanov"],
+    "authors": ["Anton Zhiyanov"],
     "license": "MIT",
-    "description": "User-defined functions and dynamic SQL.",
-    "keywords": ["sqlean-define"],
-    "symbols": ["define_free", "define", "eval", "sqlean_define", "undefine"],
+    "description": "The ultimate set of SQLite extensions.",
+    "keywords": ["sqlean"],
     "assets": {
         "files": {
             "darwin-amd64": "sqlean-macos-x86.zip",
             "darwin-arm64": "sqlean-macos-arm64.zip",
             "linux-amd64": "sqlean-linux-x86.zip",
+            "linux-arm64": "sqlean-linux-arm64.zip",
             "windows-amd64": "sqlean-win-x64.zip"
-        },
-        "pattern": "define*"
+        }
     }
 }
