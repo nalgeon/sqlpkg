@@ -13,7 +13,8 @@
         "files": {
             "darwin-amd64": "sqlean-macos-x86.zip",
             "darwin-arm64": "sqlean-macos-arm64.zip",
-            "linux-amd64": "sqlean-linux-x86.zip"
+            "linux-amd64": "sqlean-linux-x86.zip",
+            "linux-arm64": "sqlean-linux-arm64.zip"
         },
         "pattern": "ipaddr*"
     }
