@@ -1,0 +1,21 @@
+{
+    "owner": "x2bool",
+    "name": "sqliteclip",
+    "version": "v0.9.0",
+    "repository": "https://github.com/x2bool/sqliteclip",
+    "authors": ["Sergey Khabibullin"],
+    "license": "MIT",
+    "description": "SQLite extension for working with clipboard (copy/paste functions).",
+    "keywords": ["clipboard"],
+    "symbols": ["sqliteclip"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "libsqliteclip-macos-x64.zip",
+            "darwin-arm64": "libsqliteclip-macos-aarch64.zip",
+            "linux-386": "libsqliteclip-linux-x86.tar.gz",
+            "linux-amd64": "libsqliteclip-linux-x64.tar.gz",
+            "windows-386": "sqliteclip-windows-x86.zip",
+            "windows-amd64": "sqliteclip-windows-x64.zip"
+        }
+    }
+}
