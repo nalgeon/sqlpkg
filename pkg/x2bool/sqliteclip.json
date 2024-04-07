@@ -5,9 +5,9 @@
     "repository": "https://github.com/x2bool/sqliteclip",
     "authors": ["Sergey Khabibullin"],
     "license": "MIT",
-    "description": "SQLite extension for working with clipboard (copy/paste functions).",
-    "keywords": ["clipboard"],
-    "symbols": ["sqliteclip"],
+    "description": "Working with the operating system clipboard (copy/paste functions).",
+    "keywords": ["clipboard", "libsqliteclip"],
+    "symbols": ["clip_copy", "clipboard_copy", "clip_paste", "clipboard_paste"],
     "assets": {
         "files": {
             "darwin-amd64": "libsqliteclip-macos-x64.zip",
