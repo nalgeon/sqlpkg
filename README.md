@@ -10,6 +10,6 @@ Here is what you can do from here:
 -   Install extensions using the [package manager](https://github.com/nalgeon/sqlpkg-cli).
 -   Add [your own package](spec.md) to the registry.
 
-Note that you don't have to add your package to the registry for `sqlpkg` to work with it — it will work just fine with your own repo (see the `sqlpkg` documentation for details). Adding your package to the registry is completely optional.
+Note that you don't have to add your package to the registry for `sqlpkg` to work with it — it will work just fine with your own repo (see the [documentation](spec.md) for details). Adding your package to the registry is completely optional.
 
 [**Subscribe**](https://antonz.org/subscribe/) for updates 🚀
