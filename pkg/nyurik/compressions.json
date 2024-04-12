@@ -1,24 +1,33 @@
 {
     "owner": "nyurik",
     "name": "compressions",
-    "version": "v0.2.1",
+    "version": "v0.2.9",
     "repository": "https://github.com/nyurik/sqlite-compressions",
     "authors": ["Yuri Astrakhan"],
     "license": "MIT",
-    "description": "Compression, decompression, and testing for Brotli and gzip encodings.",
+    "description": "Compression, decompression, testing, diffing and patching functions for SQLite: gzip, brotli, bsdiff, ...",
     "keywords": [
         "sqlite-compressions",
         "libsqlite_compressions",
         "brotli",
+        "bsdiff",
+        "bzip2",
         "gzip"
     ],
     "symbols": [
-        "gzip",
-        "gzip_decode",
-        "gzip_test",
         "brotli",
         "brotli_decode",
-        "brotli_test"
+        "brotli_test",
+        "bsdiff4",
+        "bspatch4",
+        "bsdiffraw",
+        "bspatchraw",
+        "bzip2",
+        "bzip2_decode",
+        "bzip2_test",
+        "gzip",
+        "gzip_decode",
+        "gzip_test"
     ],
     "assets": {
         "files": {
