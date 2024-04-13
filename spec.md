@@ -37,7 +37,7 @@ Chances are, you host your project on GitHub and use GitHub releases to publish 
     "owner": "{github_username}",
     "name": "{extension_name}",
     "version": "{current_version}",
-    "repository": "https://github.com/{github_username}/{project_name}",
+    "repository": "https://github.com/{github_username}/{repo_name}",
     "authors": ["{your_name}"],
     "license": "{license}",
     "description": "{description}",
@@ -78,7 +78,7 @@ Be sure to replace the `{placeholders}` with actual values. For example:
 }
 ```
 
-Note that the repo name (`sqlite-hello` in the example) can be different from the extension name (`hello`).
+Note that the repo name (`sqlite-hello` in the example) can be different from the extension name (`hello`) — but it's better if they match.
 
 Also note that I left the `{version}` placeholders in the `assets` section. This is intended — `sqlpkg` will automatically replace them with the main `version` field.
 
@@ -87,13 +87,13 @@ Also note that I left the `{version}` placeholders in the `assets` section. This
 When the spec is ready, commit it to the root of your repository as `sqlpkg.json`. This will allow the [sqlpkg manager](https://github.com/nalgeon/sqlpkg-cli) tool to find and install it like this:
 
 ```
-sqlpkg install {github_username}/{extension_name}
+sqlpkg install {github_username}/{repo_name}
 ```
 
 Using the above example:
 
 ```
-sqlpkg install nalgeon/hello
+sqlpkg install nalgeon/sqlite-hello
 ```
 
 ## Listing the extension
