@@ -1,7 +1,7 @@
 {
     "owner": "nyurik",
     "name": "hashes",
-    "version": "v0.6.0",
+    "version": "v0.7.5",
     "repository": "https://github.com/nyurik/sqlite-hashes",
     "authors": ["Yuri Astrakhan"],
     "license": "MIT",
