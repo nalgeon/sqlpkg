@@ -1,0 +1,19 @@
+{
+    "owner": "asg017",
+    "name": "vec",
+    "version": "v0.1.0",
+    "repository": "https://github.com/asg017/sqlite-vec",
+    "authors": ["Alex Garcia"],
+    "license": "MIT",
+    "description": "Vector search.",
+    "keywords": ["sqlite-vec"],
+    "symbols": ["vec0"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite-vec-{version}-loadable-macos-x86_64.tar.gz",
+            "darwin-arm64": "sqlite-vec-{version}-loadable-macos-aarch64.tar.gz",
+            "linux-amd64": "sqlite-vec-{version}-loadable-linux-x86_64.tar.gz",
+            "windows-amd64": "sqlite-vec-{version}-loadable-windows-x86_64.zip"
+        }
+    }
+}
