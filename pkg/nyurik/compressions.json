@@ -1,7 +1,7 @@
 {
     "owner": "nyurik",
     "name": "compressions",
-    "version": "v0.2.9",
+    "version": "v0.2.14",
     "repository": "https://github.com/nyurik/sqlite-compressions",
     "authors": ["Yuri Astrakhan"],
     "license": "MIT",
