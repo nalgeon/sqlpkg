@@ -1,0 +1,19 @@
+{
+    "owner": "stackql",
+    "name": "json_equal",
+    "version": "v1.0.5",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/json_equal.md",
+    "repository": "https://github.com/stackql/sqlite-ext-functions",
+    "authors": ["Jeffrey Aven"],
+    "license": "MIT",
+    "description": "A SQLite extension for comparing JSON strings (objects or arrays) for equivalence within SQL queries.",
+    "keywords": ["JSON", "JSON comparison", "JSON equality", "json_equal"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
+            "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
+            "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
+            "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
+        }
+    }
+}
