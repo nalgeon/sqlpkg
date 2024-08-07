@@ -1,7 +1,7 @@
 {
     "owner": "stackql",
     "name": "json_equal",
-    "version": "1.0.5",
+    "version": "v1.0.5",
     "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/json_equal.md",
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
