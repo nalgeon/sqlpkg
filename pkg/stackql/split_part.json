@@ -1,13 +1,19 @@
 {
     "owner": "stackql",
     "name": "split_part",
-    "version": "1.0.5",
+    "version": "v1.0.5",
     "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/split_part.md",
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
     "license": "MIT",
-    "description": "A SQLite extension for splitting strings into parts using a specified separator, PostgreSQL compatible, supporting negative indexes.",
-    "keywords": ["split_part", "string manipulation", "string splitting", "PostgreSQL compatible", "negative indexes"],
+    "description": "Splitting strings into parts using a specified separator, PostgreSQL compatible, supporting negative indexes.",
+    "keywords": [
+        "split_part",
+        "string manipulation",
+        "string splitting",
+        "PostgreSQL compatible",
+        "negative indexes"
+    ],
     "assets": {
         "files": {
             "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",

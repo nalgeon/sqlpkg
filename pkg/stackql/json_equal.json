@@ -6,7 +6,7 @@
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
     "license": "MIT",
-    "description": "A SQLite extension for comparing JSON strings (objects or arrays) for equivalence within SQL queries.",
+    "description": "Comparing JSON strings (objects or arrays) for equivalence within SQL queries.",
     "keywords": ["JSON", "JSON comparison", "JSON equality", "json_equal"],
     "assets": {
         "files": {

@@ -1,13 +1,22 @@
 {
     "owner": "stackql",
     "name": "regexp",
-    "version": "1.0.5",
+    "version": "v1.0.5",
     "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/regexp.md",
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
     "license": "MIT",
-    "description": "A SQLite extension for working with regular expressions using the tiny-regex-c library. Provides functions for pattern matching and manipulation of strings within SQL queries.",
-    "keywords": ["regexp", "regexp_like", "regexp_replace", "regexp_substr", "regular expressions", "pattern matching", "string manipulation", "tiny-regex-c"],
+    "description": "Working with regular expressions using the tiny-regex-c library. Provides functions for pattern matching and manipulation of strings within SQL queries.",
+    "keywords": [
+        "regexp",
+        "regexp_like",
+        "regexp_replace",
+        "regexp_substr",
+        "regular expressions",
+        "pattern matching",
+        "string manipulation",
+        "tiny-regex-c"
+    ],
     "assets": {
         "files": {
             "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
@@ -17,4 +26,3 @@
         }
     }
 }
-
