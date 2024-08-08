@@ -1,21 +1,38 @@
 {
     "owner": "nalgeon",
     "name": "crypto",
-    "version": "0.25.0",
+    "version": "0.26.0",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/crypto.md",
     "repository": "https://github.com/nalgeon/sqlean",
     "authors": ["Anton Zhiyanov"],
     "license": "MIT",
     "description": "Hashing, encoding and decoding data.",
-    "keywords": ["sqlean-crypto"],
-    "symbols": [
+    "keywords": [
+        "ascii85",
+        "base32",
+        "base64",
+        "base85",
         "decode",
+        "digest",
         "encode",
+        "hex",
         "md5",
-        "sha1",
-        "sha256",
-        "sha384",
-        "sha512"
+        "sha-1",
+        "sha-256",
+        "sha-384",
+        "sha-512",
+        "sqlean-crypto",
+        "url encode"
+    ],
+    "symbols": [
+        "crypto_blake3",
+        "crypto_md5",
+        "crypto_sha1",
+        "crypto_sha256",
+        "crypto_sha384",
+        "crypto_sha512",
+        "crypto_encode",
+        "crypto_decode"
     ],
     "assets": {
         "files": {

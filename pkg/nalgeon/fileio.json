@@ -1,13 +1,19 @@
 {
     "owner": "nalgeon",
     "name": "fileio",
-    "version": "0.25.0",
+    "version": "0.26.0",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/fileio.md",
     "repository": "https://github.com/nalgeon/sqlean",
-    "authors": ["Richard Hipp", "Anton Zhiyanov"],
+    "authors": ["Anton Zhiyanov", "Richard Hipp"],
     "license": "MIT",
     "description": "Read and write files.",
-    "keywords": ["sqlean-fileio"],
+    "keywords": [
+        "append file",
+        "create directory",
+        "list files",
+        "sqlean-fileio",
+        "symlink"
+    ],
     "symbols": [
         "fileio_append",
         "fileio_ls",
