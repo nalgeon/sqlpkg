@@ -12,4 +12,4 @@ Here is what you can do from here:
 
 Note that you don't have to add your package to the registry for `sqlpkg` to work with it — it will work just fine with your own repo (see the [documentation](spec.md) for details). Adding your package to the registry is completely optional.
 
-[**Subscribe**](https://antonz.org/subscribe/) for updates 🚀
+★ [Subscribe](https://antonz.org/subscribe/) for updates
