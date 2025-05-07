@@ -1,7 +1,7 @@
 {
     "owner": "x2bool",
     "name": "xlite",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "repository": "https://github.com/x2bool/xlite",
     "authors": ["Sergey Khabibullin"],
     "license": "MIT",
