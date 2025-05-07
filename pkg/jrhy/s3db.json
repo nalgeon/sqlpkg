@@ -1,0 +1,23 @@
+{
+    "owner": "jrhy",
+    "name": "s3db",
+    "version": "v0.1.66",
+    "repository": "https://github.com/jrhy/s3db",
+    "authors": ["Jeff Rhyason"],
+    "license": "MIT",
+    "description": "S3-compatible object store as virtual table.",
+    "symbols": [
+        "s3db",
+        "s3db_changes",
+        "s3db_conn",
+        "s3db_refresh",
+        "s3db_vacuum",
+        "s3db_version"
+    ],
+    "assets": {
+        "files": {
+            "linux-amd64": "s3db-{version}-linux-amd64-glibc.sqlite-ext.so.gz",
+            "linux-arm64": "s3db-{version}-linux-arm64-glibc.sqlite-ext.so.gz"
+        }
+    }
+}
