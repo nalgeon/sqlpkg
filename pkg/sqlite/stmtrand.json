@@ -1,0 +1,20 @@
+{
+    "owner": "sqlite",
+    "name": "stmtrand",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/stmtrand.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": ["Richard Hipp"],
+    "license": "Public Domain",
+    "description": "Generate pseudo-random non-negative integers.",
+    "symbols": ["stmtrand"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "misc-macos.zip",
+            "darwin-arm64": "misc-macos.zip",
+            "linux-amd64": "misc-linux-x86.zip",
+            "windows-amd64": "misc-win-x64.zip"
+        },
+        "pattern": "stmtrand*"
+    }
+}
