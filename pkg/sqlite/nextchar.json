@@ -1,7 +1,7 @@
 {
     "owner": "sqlite",
     "name": "nextchar",
-    "version": "3.45.0",
+    "version": "3.49.1",
     "homepage": "https://sqlite.org/src/file?name=ext/misc/nextchar.c&ci=trunk",
     "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
