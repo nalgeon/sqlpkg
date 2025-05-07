@@ -1,0 +1,20 @@
+{
+    "owner": "dpeckett",
+    "name": "chromaprint",
+    "version": "v0.1.0",
+    "repository": "https://github.com/dpeckett/sqlite3-chromaprint",
+    "authors": ["Damian Peckett"],
+    "license": "MPL-2.0",
+    "description": "Fingerprinting and similarity for audio files.",
+    "keywords": [],
+    "symbols": ["compare_fingerprints", "fingerprint"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "libsqlite3_chromaprint-darwin-x86_64.dylib",
+            "darwin-arm64": "libsqlite3_chromaprint-darwin-aarch64.dylib",
+            "linux-amd64": "libsqlite3_chromaprint-linux-x86_64.so",
+            "linux-arm64": "libsqlite3_chromaprint-linux-aarch64.so",
+            "windows-amd64": "sqlite3_chromaprint-windows-x86_64.dll"
+        }
+    }
+}
