@@ -1,13 +1,13 @@
 {
     "owner": "stackql",
-    "name": "split_part",
+    "name": "aws_policy_equal",
     "version": "v1.0.4",
-    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/split_part.md",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/aws_policy_equal.md",
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
     "license": "MIT",
-    "description": "A SQLite extension for splitting strings into parts using a specified separator, PostgreSQL compatible, supporting negative indexes.",
-    "keywords": ["split_part", "string manipulation", "string splitting", "PostgreSQL compatible", "negative indexes"],
+    "description": "A SQLite extension for comparing AWS IAM policy documents semantically according to AWS policy evaluation rules.",
+    "keywords": ["AWS", "IAM policy", "policy comparison", "aws_policy_equal"],
     "assets": {
         "files": {
             "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
