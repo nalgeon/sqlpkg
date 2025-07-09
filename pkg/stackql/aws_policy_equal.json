@@ -6,14 +6,16 @@
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
     "license": "MIT",
-    "description": "A SQLite extension for comparing AWS IAM policy documents semantically according to AWS policy evaluation rules.",
-    "keywords": ["AWS", "IAM policy", "policy comparison", "aws_policy_equal"],
+    "description": "Comparing AWS IAM policy documents semantically for equivalence within SQL queries.",
+    "keywords": ["aws", "iam policy", "comparison", "equality"],
+    "symbols": ["aws_policy_equal"],
     "assets": {
         "files": {
             "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
             "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
             "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
             "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
-        }
+        },
+        "pattern": "aws_policy_equal*"
     }
 }
