@@ -1,13 +1,21 @@
 {
     "owner": "nalgeon",
     "name": "math",
-    "version": "0.25.0",
+    "version": "0.27.2",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/math.md",
     "repository": "https://github.com/nalgeon/sqlean",
     "authors": ["Richard Hipp"],
     "license": "MIT",
     "description": "Common math functions.",
-    "keywords": ["sqlean-math"],
+    "keywords": [
+        "angular measures",
+        "arithmetic",
+        "hyperbolic",
+        "logarithmic",
+        "rounding",
+        "sqlean-math",
+        "trigonometric"
+    ],
     "symbols": [
         "acos",
         "acosh",

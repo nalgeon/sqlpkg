@@ -1,0 +1,21 @@
+{
+    "owner": "andreasbell",
+    "name": "protobuf",
+    "version": "v0.1.5",
+    "repository": "https://github.com/andreasbell/sqlite_protobuf",
+    "authors": ["Andreas Martinsen"],
+    "license": "MIT",
+    "description": "Read Protobuf messages.",
+    "keywords": [],
+    "symbols": ["protobuf_extract", "protobuf_foreach", "protobuf_to_json"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "sqlite_protobuf-macos-x64.zip",
+            "darwin-arm64": "sqlite_protobuf-macos-aarch64.zip",
+            "linux-amd64": "sqlite_protobuf-linux-x64.tar.gz",
+            "linux-arm64": "sqlite_protobuf-linux-aarch64.tar.gz",
+            "windows-amd64": "sqlite_protobuf-windows-x64.zip",
+            "windows-arm64": "sqlite_protobuf-windows-aarch64.zip"
+        }
+    }
+}

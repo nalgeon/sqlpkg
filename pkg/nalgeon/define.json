@@ -1,10 +1,10 @@
 {
     "owner": "nalgeon",
     "name": "define",
-    "version": "0.25.0",
+    "version": "0.27.2",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/define.md",
     "repository": "https://github.com/nalgeon/sqlean",
-    "authors": ["0x09", "Richard Hipp", "Anton Zhiyanov"],
+    "authors": ["Anton Zhiyanov", "0x09", "Richard Hipp"],
     "license": "MIT",
     "description": "User-defined functions and dynamic SQL.",
     "keywords": ["sqlean-define"],

@@ -1,7 +1,7 @@
 {
     "owner": "sqlite",
     "name": "randomjson",
-    "version": "3.45.0",
+    "version": "3.49.1",
     "homepage": "https://sqlite.org/src/file?name=ext/misc/randomjson.c&ci=trunk",
     "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],

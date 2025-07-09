@@ -82,6 +82,10 @@ Note that the repo name (`sqlite-hello` in the example) can be different from th
 
 Also note that I left the `{version}` placeholders in the `assets` section. This is intended — `sqlpkg` will automatically replace them with the main `version` field.
 
+The `description` field should be less than 100 characters (even better, try to keep it under 80 characters).
+
+The `symbols` field should list the names of the functions defined in the extension.
+
 ## Using the spec
 
 When the spec is ready, commit it to the root of your repository as `sqlpkg.json`. This will allow the [sqlpkg manager](https://github.com/nalgeon/sqlpkg-cli) tool to find and install it like this:

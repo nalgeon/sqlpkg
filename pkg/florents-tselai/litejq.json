@@ -1,0 +1,17 @@
+{
+    "owner": "florents-tselai",
+    "name": "litejq",
+    "version": "v0.1.0",
+    "repository": "https://github.com/florents-tselai/litejq",
+    "authors": ["Florents Tselai"],
+    "license": "MIT",
+    "description": "The power of jq in SQLite.",
+    "keywords": ["jq", "json"],
+    "symbols": ["jq"],
+    "assets": {
+        "files": {
+            "darwin-arm64": "litejq-{version}-Darwin-arm64.zip",
+            "linux-arm64": "litejq-{version}-Linux-aarch64.tar.gz"
+        }
+    }
+}

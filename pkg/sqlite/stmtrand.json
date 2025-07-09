@@ -1,13 +1,13 @@
 {
     "owner": "sqlite",
-    "name": "base64",
+    "name": "stmtrand",
     "version": "3.49.1",
-    "homepage": "https://sqlite.org/src/file?name=ext/misc/base64.c&ci=trunk",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/stmtrand.c&ci=trunk",
     "repository": "https://github.com/nalgeon/sqlite-ext",
     "authors": ["Richard Hipp"],
     "license": "Public Domain",
-    "description": "Encode and decode binary blobs to base64 text encoding.",
-    "symbols": ["base64"],
+    "description": "Generate pseudo-random non-negative integers.",
+    "symbols": ["stmtrand"],
     "assets": {
         "files": {
             "darwin-amd64": "misc-macos.zip",
@@ -15,6 +15,6 @@
             "linux-amd64": "misc-linux-x86.zip",
             "windows-amd64": "misc-win-x64.zip"
         },
-        "pattern": "base64*"
+        "pattern": "stmtrand*"
     }
 }
