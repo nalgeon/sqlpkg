@@ -1,7 +1,7 @@
 {
     "owner": "stackql",
     "name": "regexp",
-    "version": "v1.0.5",
+    "version": "v1.0.4",
     "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/regexp_fns.md",
     "repository": "https://github.com/stackql/sqlite-ext-functions",
     "authors": ["Jeffrey Aven"],
