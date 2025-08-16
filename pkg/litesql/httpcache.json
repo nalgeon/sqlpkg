@@ -5,8 +5,15 @@
     "repository": "https://github.com/litesql/httpcache",
     "authors": ["Walter Wanderley"],
     "license": "MIT",
-    "description": "SQLite extension to cache HTTP responses",
-    "symbols": ["cache_age", "cache_expired", "cache_expired_ttl", "cache_lifetime", "cache_lifetime_shared", "http_request"],
+    "description": "Make HTTP GET requests and store the responses.",
+    "symbols": [
+        "cache_age",
+        "cache_expired",
+        "cache_expired_ttl",
+        "cache_lifetime",
+        "cache_lifetime_shared",
+        "http_request"
+    ],
     "assets": {
         "files": {
             "darwin-amd64": "httpcache_{version}_Darwin_x86_64.tar.gz",
