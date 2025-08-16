@@ -1,0 +1,25 @@
+{
+    "owner": "litesql",
+    "name": "httpcache",
+    "version": "v0.0.7",
+    "repository": "https://github.com/litesql/httpcache",
+    "authors": ["Walter Wanderley"],
+    "license": "MIT",
+    "description": "Make HTTP GET requests and store the responses.",
+    "symbols": [
+        "cache_age",
+        "cache_expired",
+        "cache_expired_ttl",
+        "cache_lifetime",
+        "cache_lifetime_shared",
+        "http_request"
+    ],
+    "assets": {
+        "files": {
+            "darwin-amd64": "httpcache_{version}_Darwin_x86_64.tar.gz",
+            "darwin-arm64": "httpcache_{version}_Darwin_arm64.tar.gz",
+            "linux-amd64": "httpcache_{version}_Linux_x86_64.tar.gz",
+            "windows-amd64": "httpcache_{version}_Windows_x86_64.zip"
+        }
+    }
+}
