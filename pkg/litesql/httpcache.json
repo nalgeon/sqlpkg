@@ -1,10 +1,10 @@
 {
-    "owner": "walterwanderley",
-    "name": "sqlite-http-cache",
-    "version": "v0.0.6",
-    "repository": "https://github.com/walterwanderley/sqlite-http-cache",
+    "owner": "litesql",
+    "name": "httpcache",
+    "version": "v0.0.7",
+    "repository": "https://github.com/litesql/httpcache",
     "authors": ["Walter Wanderley"],
-    "license": "Apache v2",
+    "license": "MIT",
     "description": "SQLite extension to cache HTTP responses",
     "symbols": ["cache_age", "cache_expired", "cache_expired_ttl", "cache_lifetime", "cache_lifetime_shared", "http_request"],
     "assets": {
