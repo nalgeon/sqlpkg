@@ -5,7 +5,7 @@
     "repository": "https://github.com/litesql/mqtt",
     "authors": ["Walter Wanderley"],
     "license": "MIT",
-    "description": "SQLite extension to MQTT",
+    "description": "Publish and subscribe to MQTT topics.",
     "symbols": ["mqtt_pub", "mqtt_sub"],
     "assets": {
         "files": {
