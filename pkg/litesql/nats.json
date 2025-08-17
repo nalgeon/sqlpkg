@@ -1,0 +1,18 @@
+{
+    "owner": "litesql",
+    "name": "nats",
+    "version": "v0.0.1",
+    "repository": "https://github.com/litesql/nats",
+    "authors": ["Walter Wanderley"],
+    "license": "MIT",
+    "description": "Publish and subscribe to NATS topics.",
+    "symbols": ["nats_pub", "nats_sub"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "nats_{version}_Darwin_x86_64.tar.gz",
+            "darwin-arm64": "nats_{version}_Darwin_arm64.tar.gz",
+            "linux-amd64": "nats_{version}_Linux_x86_64.tar.gz",
+            "windows-amd64": "nats_{version}_Windows_x86_64.zip"
+        }
+    }
+}

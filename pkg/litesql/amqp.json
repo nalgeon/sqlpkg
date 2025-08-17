@@ -1,0 +1,18 @@
+{
+    "owner": "litesql",
+    "name": "amqp",
+    "version": "v0.0.1",
+    "repository": "https://github.com/litesql/amqp",
+    "authors": ["Walter Wanderley"],
+    "license": "MIT",
+    "description": "Publish and subscribe to AMQP 0-9-1 protocol topics.",
+    "symbols": ["amqp_pub", "amqp_sub"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "amqp_{version}_Darwin_x86_64.tar.gz",
+            "darwin-arm64": "amqp_{version}_Darwin_arm64.tar.gz",
+            "linux-amd64": "amqp_{version}_Linux_x86_64.tar.gz",
+            "windows-amd64": "amqp_{version}_Windows_x86_64.zip"
+        }
+    }
+}
