@@ -1,0 +1,18 @@
+{
+    "owner": "litesql",
+    "name": "kafka",
+    "version": "v0.0.1",
+    "repository": "https://github.com/litesql/kafka",
+    "authors": ["Walter Wanderley"],
+    "license": "MIT",
+    "description": "Publish and subscribe to Kafka topics.",
+    "symbols": ["kafka_producer", "kafka_consumer"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "kafka_{version}_Darwin_x86_64.tar.gz",
+            "darwin-arm64": "kafka_{version}_Darwin_arm64.tar.gz",
+            "linux-amd64": "kafka_{version}_Linux_x86_64.tar.gz",
+            "windows-amd64": "kafka_{version}_Windows_x86_64.zip"
+        }
+    }
+}
