@@ -1,7 +1,7 @@
 {
     "owner": "nalgeon",
     "name": "uuid",
-    "version": "0.27.2",
+    "version": "0.28.0",
     "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/uuid.md",
     "repository": "https://github.com/nalgeon/sqlean",
     "authors": ["Anton Zhiyanov", "Richard Hipp", "Nguyễn Hoàng Đức"],
@@ -17,9 +17,9 @@
     ],
     "assets": {
         "files": {
-            "darwin-amd64": "sqlean-macos-x86.zip",
+            "darwin-amd64": "sqlean-macos-x64.zip",
             "darwin-arm64": "sqlean-macos-arm64.zip",
-            "linux-amd64": "sqlean-linux-x86.zip",
+            "linux-amd64": "sqlean-linux-x64.zip",
             "linux-arm64": "sqlean-linux-arm64.zip",
             "windows-amd64": "sqlean-win-x64.zip"
         },
