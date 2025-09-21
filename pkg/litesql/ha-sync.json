@@ -1,0 +1,19 @@
+{
+    "owner": "litesql",
+    "name": "ha-sync",
+    "version": "v0.0.1",
+    "repository": "https://github.com/litesql/ha-sync",
+    "authors": ["Walter Wanderley"],
+    "license": "Apache v2",
+    "description": "SQLite extension to sync HA database with local SQLite",
+    "symbols": ["ha_sync"],
+    "assets": {
+        "files": {
+            "darwin-amd64": "ha-sync_{version}_Darwin_x86_64.tar.gz",
+            "darwin-arm64": "ha-sync_{version}_Darwin_arm64.tar.gz",
+            "linux-amd64": "ha-sync_{version}_Linux_x86_64.tar.gz",
+            "linux-arm64": "ha-sync_{version}_Linux_arm64.tar.gz",
+            "windows-amd64": "ha-sync_{version}_Windows_x86_64.zip"
+        }
+    }
+}
