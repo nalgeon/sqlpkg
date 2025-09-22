@@ -5,7 +5,7 @@
     "repository": "https://github.com/litesql/ha-sync",
     "authors": ["Walter Wanderley"],
     "license": "Apache-2.0",
-    "description": "SQLite extension to sync HA database with local SQLite",
+    "description": "Sync HA database (SQLite cluster backed by NATS JetStream) with local SQLite.",
     "symbols": ["ha_sync"],
     "assets": {
         "files": {
