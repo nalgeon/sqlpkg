@@ -4,7 +4,7 @@
     "version": "v0.0.3",
     "repository": "https://github.com/litesql/ha-sync",
     "authors": ["Walter Wanderley"],
-    "license": "Apache v2",
+    "license": "Apache-2.0",
     "description": "SQLite extension to sync HA database with local SQLite",
     "symbols": ["ha_sync"],
     "assets": {
